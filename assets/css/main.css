@@ -1,0 +1,1714 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 65.9px;
+        height: 14px;
+        gap: 2px;
+        margin-top: 6px;
+        padding-left: 61.78px;
+    }
+    .logotext{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 5.77px;
+        line-height: 6.76px;
+        color: #545BE8;
+    
+    }
+    i{
+        visibility: hidden;
+    }
+    .nav{
+        margin-top: 11px;
+       
+       
+    }
+    .list{
+        gap: 16.47px;
+        font-family: var(--mainFont);
+        font-weight: 400;
+        font-size: 6.59px;
+        line-height: 9.88px;
+        
+    }
+    .home{
+        font-weight: 700;
+    }
+    .login{
+        
+        width: 75px;
+        height: 19.71px;
+        border-style: solid;
+        border-radius: 4.12px;
+        border-color: #545BE8;
+        gap: 4.12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8px;
+    }
+    .login:hover{
+        background-color: #545BE8;
+        a{
+            color:#fff;
+        }
+    }
+    .login a{
+        font-family: var(--subFont);
+        font-weight: 700;
+        font-size: 7.41px;
+        line-height: 8.97px;
+        color: #545BE8;
+        width: 22px;
+        height: 9px;
+        
+    
+    }
+    .aut{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+    }
+    .reg{
+        width: 70.02px;
+        height: 19.71px;
+        border-style: solid;
+        border-radius: 4.12px;
+        border-color: #545BE8;
+        gap: 4.12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #545BE8;
+        margin-top: 8px;
+        margin-right: 61.78px;
+    }
+    .reg:hover{
+        background-color: #fff;
+        a{
+            color: #545BE8;
+        }
+    }
+    .reg a{
+        font-family: var(--subFont);
+        font-weight: 700;
+        font-size: 7.41px;
+        line-height: 8.97px;
+        color: #fff;
+        width: 31px;
+        height: 9px;
+        
+    }
+    .letus{
+        width: 40.85px;
+        height: 10px;
+        font-family: var(--subFont);
+        font-weight: 400;
+        font-size: 7.41px;
+        line-height: 8.97px;
+        color: #545BE8;
+        
+        
+    }
+    .beg{
+        width: 40.85px;
+        height: 10px;
+        font-family: var(--subFont);
+        font-weight: 700;
+        font-size: 7.41px;
+        line-height: 8.97px;
+        color: #545BE8;
+        
+    }
+    .begin{
+        padding-top: 20px;
+        display: flex;
+        gap: 83px;
+        margin-top: 20px;
+       
+        
+    }
+    .letbeg{
+        gap: 0px;
+    }
+    h1{
+        width: 218.32px;
+        height: 120px;
+        font-family: var(--mainFont);
+        font-weight: 700;
+        font-size: 26.36px;
+        line-height: 39.54px;
+    }
+    span{
+        width: 218.32px;
+        height: 120px;
+        font-family: var(--mainFont);
+        font-weight: 700;
+        font-size: 26.36px;
+        line-height: 39.54px;
+        color: #545BE8;
+    }
+    .lorem{
+        width: 218.32px;
+        height: 22px;
+        font-family: var(--mainFont);
+        font-weight: 400;
+        font-size: 7.41px;
+        line-height: 11.12px;
+        color: #969696;
+    }
+    .play{
+        width: 39px;
+        height: 9px;
+        font-family: var(--subFont);
+        font-weight: 700;
+        font-size: 7.41px;
+        line-height: 8.97px;
+        color: #141E32;
+        padding-top:6px;
+    }
+    .playvideo{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+    .playved{
+        padding-left: 10px;
+        padding-top:8px;
+    }
+    .text{
+        
+        padding-left: 25px;
+    }
+    header{
+        
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        font-family: var(--mainFont);
+        border-style: solid;
+        border-left: #fff;
+        border-bottom: #fff;
+        border-right: #fff;
+        border-top: #fff;
+        box-shadow: 0 4px 7px 0 #969696;
+        height: 35px;
+        position:sticky;
+        top: 0;
+        animation:scroll-transition;
+        animation-timeline: scroll(y);
+        z-index: 1;
+    }
+    
+    @keyframes scroll-transition {
+       0.0001%{  
+        background-color:#545BE8;
+        color: #fff;
+        }
+        100%{  
+            background-color:#545BE8;
+            color: #fff;
+            }
+    
+    }
+    .give{
+        width: 149.92px;
+        height: 104.66px;
+        .pr{
+            font-family: var(--mainFont);
+            font-weight: 400;
+            font-size: 7.41px;
+            line-height: 11.12px;
+            color: #969696;
+            width: 149.92px;
+            margin-left: 0px;
+    
+        }
+        padding-left: 0px;
+    
+    }
+    
+    .first{
+        width: 755px;
+        height: 9px;
+        font-family: var(--subFont);
+        font-weight: 400;
+        font-size: 7.41px;
+        line-height: 8.97px;
+        color: #545BE8;
+    }
+    .service{
+        
+        display: flex;
+        
+        padding-left: 90px;
+        gap: 10px;
+        padding-top: 11%;
+       
+        align-items: center;
+    
+    }
+    h2{
+        width: 119.85px;
+        height: 50px;
+        font-family: var(--mainFont);
+        font-weight: 700;
+        font-size: 16.47px;
+        line-height: 24.71px;
+    }
+    .one{
+        width: 17px;
+        height: 17px;
+        background-color: #fff;
+        border-radius: 100%;
+        margin-top: 14.77px;
+        margin-left: 9.88px;
+        text-align: center;
+    }
+    .teacher{
+        background-color: #545BE8;
+        width: 109.97px;
+        height: 109.97px;
+        border-radius: 4.12px;
+        -webkit-box-reflect:below 1px
+        linear-gradient(
+            transparent,rgba(0,0,0,0.15)
+        );
+        transition: 0.4s;
+    }
+    h3{
+        width: 80.72px;
+        height: 13px;
+        font-family: var(--subFont);
+        font-weight: 700;
+        font-size: 7.41px;
+        line-height: 12.36px;
+        color: #fff;
+        margin-top: 5px;
+        margin-left: 6.59px;
+    }
+    p{
+        width: 93px;
+        font-family: var(--mainFont);
+            font-weight: 400;
+            font-size: 7.41px;
+            line-height: 11.12px;
+            color: #DDDDDD;
+            margin-left: 7px;
+            height: 36px;
+    }
+    .two{
+        width: 17px;
+        height: 17px;
+        background-color: #fff;
+        border-radius: 100%;
+        margin-top: 14.77px;
+        margin-left: 9.88px;
+        text-align: center;
+    }
+    .course{
+        background-color: #545BE8;
+        width: 109.97px;
+        height: 109.97px;
+        border-radius: 4.12px;
+        -webkit-box-reflect:below 1px
+        linear-gradient(
+            transparent,rgba(0,0,0,0.15)
+        );
+        transition: 0.4s;
+        transform: scale(1,1);
+    }
+    .three{
+        width: 17px;
+        height: 17px;
+        background-color: #fff;
+        border-radius: 100%;
+        margin-top: 14.77px;
+        margin-left: 9.88px;
+        text-align: center;
+    }
+    .learning{
+        background-color: #545BE8;
+        width: 109.97px;
+        height: 109.97px;
+        border-radius: 4.12px;
+        -webkit-box-reflect:below 1px
+        linear-gradient(
+            transparent,rgba(0,0,0,0.15)
+        );
+        transition: 0.4s;
+        transform: scale(1,1);
+    }
+    .all{
+        width: 100%;
+        height: 270px;
+        background-color: #F5F5F5;
+        transform-style: preserve-3d;
+    }
+    .hov{
+        display: flex;
+        gap: 10px;
+        padding-left: 20px;
+        
+    }
+    .hov:hover > :not(:hover) {
+        transform: 
+        perspective(400px)
+        rotateY(0deg)
+        scale(0.8);
+    }
+    .teacher{
+        transform: scale(1,1);
+    }
+    .tran{
+        padding-top: 40px;
+        padding-left: 625px;
+        
+    }
+    .people{
+        width: 100%;
+        height: 270px;
+        background-color: #545BE8;
+        display: flex;
+        gap: 100px;
+    }
+    .mom{
+        padding-left: 58.78px;
+    }
+    .stat{
+        display: flex;
+        
+        a{
+            color: #F0C932;
+            margin: auto;
+            font-family: var(--subFont);
+            font-weight: 700;
+            font-size: 9.88px;
+            line-height: 11.96px;
+        }
+        p{
+            
+            font-family:var(--subFont);
+            font-weight: 400;
+            font-size: 7.41px;
+            line-height: 8.97px;
+        }
+        
+        padding-top: 20px;
+    }
+    .uno{
+        margin-left: 0;
+    }
+    .tris{
+        margin-left: 0;
+    }
+    .six{
+        padding-left: 10px;
+    }
+    .selected{
+        a{
+            width: 70.43px;
+            height: 9.05px;
+            font-family: var(--subFont);
+            font-weight: 400;
+            font-size: 7.41px;
+            line-height: 8.97px;
+            color: #F0C932;
+        }
+        p{
+            width: 188.22px;
+            color: #DDDDDD;
+            margin-left: 0;
+        }
+        h2{
+            color: #FFFFFF;
+        }
+        padding-top: 50px;
+    }
+    .pic h3{
+        
+        width: 42.33px;
+        height: 9.86px;
+        font-family: var(--mainFont);
+        font-weight: 700;
+        font-size: 6.69px;
+        line-height: 10.04px;
+        padding-top: 0;
+       
+    }
+    .best{
+        background-color: #545BE8;
+        width: 52.37px;
+        height: 17.81px;
+        display: flex;
+        align-content: center;
+        top: 885.95px;
+        position: absolute;
+    }
+    .bist{
+        background-color: #545BE8;
+        width: 52.37px;
+        height: 17.81px;
+        display: flex;
+        align-content: center;
+        top: 1041.95px;
+        position: absolute;
+    }
+    .dollar{
+        display: flex;
+            align-content: center;
+            top: 960.95px;
+            position: absolute; 
+            width: 40.22px;
+            height: 13.56px;
+            font-family: var(--mainFont); 
+            font-weight: 700;
+            font-size: 8.93px;
+            line-height: 13.39px;
+            color: #fff;
+            padding-left: 94px;
+            
+    }
+    .dolar{
+        display: flex;
+            align-content: center;
+            top: 1113.95px;
+            position: absolute; 
+            width: 40.22px;
+            height: 13.56px;
+            font-family: var(--mainFont); 
+            font-weight: 700;
+            font-size: 8.93px;
+            line-height: 13.39px;
+            color: #fff;
+            padding-left: 94px;
+    }
+    .tex{
+        display: flex;
+        a{
+            width: 30.06px;
+            height: 7.81px;
+            font-family: var(--mainFont);
+            font-size: 400;
+            font-size: 5.21px;
+            line-height: 7.81px;
+            color: #545BE8;
+           
+        }
+        gap: 50px;
+    }
+    h4{
+        width: 54.61px;
+        height: 13.56px;
+        font-family: var(--mainFont);
+        font-weight: 700;
+        font-size: 8.93px;
+        line-height: 13.39px;
+        color: #141E32;
+    }
+    .vidt{
+        color: #969696;
+        margin-left: 0;
+    }
+    .web{
+        width: 139.14px;
+        height: 142.12px;
+        border-top-color: #fff;
+        border-left-color: #fff;
+        border-right-color: #fff;
+        border-bottom-color: #fff;
+        box-shadow: 0 7.44px 7.44px 0 #0000000D;
+    }
+    .photographer{
+        width: 139.14px;
+        height: 142.12px;
+        border-top-color: #fff;
+        border-left-color: #fff;
+        border-right-color: #fff;
+        border-bottom-color: #fff;
+        box-shadow: 0 7.44px 7.44px 0 #0000000D;
+    }
+    .js{
+        width: 139.14px;
+        height: 142.12px;
+        border-top-color: #fff;
+        border-left-color: #fff;
+        border-right-color: #fff;
+        border-bottom-color: #fff;
+        box-shadow: 0 7.44px 7.44px 0 #0000000D;
+    }
+    .design{
+        width: 139.14px;
+        height: 142.12px;
+        border-top-color: #fff;
+        border-left-color: #fff;
+        border-right-color: #fff;
+        border-bottom-color: #fff;
+        box-shadow: 0 7.44px 7.44px 0 #0000000D;
+    }
+    .pic{
+        display: flex;
+        flex-wrap: wrap;
+        width: 295.25px;
+        height: 301.89px;
+        gap: 10px;
+    }
+    .av{
+        padding-left: 30px;
+        padding-top: 35px;
+        display: flex;
+        gap: 60px;
+    }
+    .available{
+    
+        p{
+            width: 154.41px;
+            height: 33px;
+            font-family: var(--mainFont);
+            font-weight: 400;
+            font-size: 7.41px;
+            line-height: 11.12px;
+            color: #969696;
+            margin-left: 0;
+        }
+        h2{
+            width: 154.41px;
+        }
+    }
+    .see{
+        width: 24px;
+        height: 9px;
+        font-family: var(--subFont);
+        font-weight: 700;
+        font-size: 7.41px;
+        line-height: 8.97px;
+        color: #fff;
+    }
+    .prr{
+        width: 76.22px;
+            height: 9px;
+            font-family: var(--subFont);
+            font-weight: 400;
+            font-size: 7.41px;
+            line-height: 8.97px;
+            color: #545BE8;
+    }
+    .testi{
+        gap: 20px;
+        display: flex;
+    }
+    
+    .testo{
+        width: 494.23px;
+        height: 148.27px;
+        margin: auto;
+        h2{
+            margin: auto;
+        }
+        padding-top: 20px;
+    }
+    .fris h4{
+        width: 33px;
+        height: 11px;
+        font-family: var(--mainFont);
+        font-weight: 700;
+        font-size: 7.41px;
+        line-height: 11.12px;
+       
+    }
+    .fin h4{
+        width: 33px;
+        height: 11px;
+        font-family: var(--mainFont);
+        font-weight: 700;
+        font-size: 7.41px;
+        line-height: 11.12px;
+    }
+    .dad p{
+        width: 17px;
+        height: 9px;
+        font-family: var(--mainFont);
+        font-weight: 400;
+        font-size: 5.77px;
+        line-height: 8.65px;
+        margin-left:1px;
+        color: #969696;
+        
+    }
+    .dad{
+        display: flex;
+        gap:4px;
+        padding-left: 14px;
+        margin-top: 9px;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+       
+    }
+    .starall{
+        position: absolute;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .fris{
+        width: 242.17px;
+        height:97.38px;
+        box-shadow: 0 8.24px 8.24px 0 #0000001A;
+        position: sticky;
+        overflow: hidden;
+    }
+    .fris::before{
+        content: '';
+        position: absolute;
+        width: 170px;
+        height: 150px;
+        padding-left: 73px;
+        background: linear-gradient(#545BE8,#F0C932);
+        animation: rotate 7s linear infinite;
+    }
+    .fin::before{
+        content: '';
+        position: absolute;
+        width: 170px;
+        height: 150.38px;
+        padding-left: 73px;
+        background: linear-gradient(#F0C932,#545BE8);
+        animation: rotate 7s linear infinite;
+    }
+    .fris::after {
+        content: '';
+        position: absolute;
+        background: #fff;
+        inset: 3px;
+        
+    }
+    .fin::after{
+        content: '';
+        position: absolute;
+        background: #fff;
+        inset: 3px;
+        
+    }
+    @keyframes rotate {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    .fin{
+        width: 242.17px;
+        height:97.38px;
+        box-shadow: 0 8.24px 8.24px 0 #0000001A;
+        position: sticky;
+        overflow: hidden;
+    }
+    .lorem{
+        width: 203.46px;
+        height: 25px;
+        font-family: var(--mainFont);
+        font-weight: 400;
+        font-size: 7.41px;
+        line-height: 12.36px;
+        margin-left:1px;
+        color: #969696;
+        padding-left: 14px;
+    }
+    .stars{
+        margin-top: 30px;
+        padding-left: 14px;
+    }
+    
+    .end{
+        margin-top: 30px;
+        width: 100%;
+        height: 164.74px;
+        background-color: #393E46;
+        display: flex;
+        .logotext{
+            width: 48px;
+            height: 7px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 5.77px;
+            line-height: 6.76px;
+            color: #FFFFFF;
+    
+        }
+        p{
+            width: 174.63px;
+            height: 30px;
+            color: #F4F4F4;
+            padding-top: 10px;
+            padding-left:40.72px ;
+            font-family: var(--mainFont);
+            font-weight: 400;
+            font-size: 5.77px;
+            line-height: 9.88px;
+        }
+        .logo{
+            padding-top: 37.48px;
+            padding-left: 46.13px;
+        }
+    }
+    .icon{
+        padding-left: 46.13px;
+        margin-top: 20px;
+    }
+    .linked{
+        height: 15px;
+        margin-top: 3px;
+    }
+    .footer1{
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+       width: 26px;
+       padding-top: 30px;
+    }
+    .footer2{
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+       width: 39px;
+       padding-top: 30px;
+    }
+    .footer3{
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+       width: 66px;
+       padding-top: 30px;
+    }
+    .lis{
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .lis nav{
+        font-weight: 200;
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .lis a{
+        width: 66px;
+        height: 9px;
+        font-family: var(--mainFont);
+        font-weight: 400;
+        font-size: 5.77px;
+        line-height: 8.65px;
+        color: #fff;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .lis h3{
+        width: 95px;
+        height: 11px;
+        padding-bottom: 20px;
+        color: #fff;
+        margin-left:20px;
+        padding-bottom: 10px;
+    
+    }
+    .icon img{
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        width: 15px;
+        padding: 2px;
+        border: solid white 1px;
+    }
+    .face{
+        height: 15px;
+    }
+    .x{
+        height: 15px;
+    }
+    .icon{
+        padding-left:50px;
+    }
+@media screen and (min-width:851px) and (max-width:932px){
+    .tran{
+        padding-left: 710px;
+    }
+    .hov{
+        padding-left: 100px;
+    }
+}
+@media screen and (min-width:1252px) and (max-width:1400px){
+    .all{
+       height: 630px; 
+       padding-top: 0;
+    }
+    header{
+       height: 60px;
+       
+    }
+    .people{
+        padding-left: 300px;
+    }
+    .end{
+        p{
+            display: none;
+        }
+        a{
+            font-size: 12px;
+            line-height: 17px;
+            width: 90px;
+        }
+        
+    }
+    .icon{
+        padding-top: 20px;
+    }
+    .vip{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+        
+       }
+       .logo{
+        margin-bottom: 40px;
+        padding-left: 120px;
+       }
+       .logotext{
+        display: none;
+       }
+       .nav{
+        width: 370px;
+        height: 23px;
+       }
+       .list{
+        font-size: 15px;
+        line-height: 20px;
+       }
+       .aut{
+        width: 270px;
+       }
+       .login{
+        width: 120px;
+        
+       }
+       .best{
+        display: none;
+       }
+       .bist{
+        display: none;
+       }
+       .dollar{
+        display: none;
+       }
+       .dolar{
+        display: none;
+       }
+       .reg{
+        width: 120px;
+       }
+    .container{
+        width: 100%;
+        display: flex;
+    }
+    .begin{
+        height: 300px;
+        justify-content: center;
+        padding-left:  120px;
+        p{
+            display: none;
+        }
+        .girl{
+            width: 300px;
+            height: 300px;
+        }
+        h1{
+            font-size: 40px;
+            width: 470px;
+            line-height: 80px; 
+        }
+        span{
+            font-size: 40px;
+            width: 470px;
+            line-height: 80px;
+        }
+        .playvideo{
+            padding-top: 80px;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+            .reg{
+                width:150px;
+                height: 50px;
+                text-align: center;
+            }
+            a{
+                width:200px;
+                font-size: 20px;
+            }
+            .play{
+                width: 300px;
+            }
+        }
+    }
+    .service{
+        padding-top: 7%;
+    }
+    .give h2{
+        font-size: 60px;
+        width: 470px;
+        line-height: 80px;
+        
+    }
+    .teacher{
+        width: 450px;
+        display: flex;
+        gap: 170px;
+        h3{
+            font-size: 20px;
+            line-height: 30px;  
+            margin-top: 21px;
+            margin-right: 20px;
+        }
+        p{
+            display: none;
+        }
+    }
+    .learning{
+        width: 450px;
+        display: flex;
+        gap: 170px;
+        h3{
+            font-size: 20px;
+            line-height: 30px;  
+            margin-top: 21px;
+            margin-right: 20px;
+        }
+        p{
+            display: none;
+        }
+    }
+    .course{
+        width: 450px;
+        display: flex;
+        gap: 170px;
+        h3{
+            font-size: 20px;
+            line-height: 30px;  
+            margin-top: 21px;
+            margin-right: 20px;
+        }
+        p{
+            display: none;
+        }
+    }
+    .give{
+        
+        width: 210px;
+    }
+    .one{
+        margin-top: 20px;
+        width: 70px;
+        height: 70px;
+        img{
+            width: 50px;
+            height: 40;
+            margin-top: 11px;
+            
+        }
+        margin-left: 20px;
+    }
+    .two{
+        margin-top: 20px;
+        width: 70px;
+        height: 70px;
+        img{
+            width: 50px;
+            height: 40;
+            margin-top: 11px;
+            
+        }
+        margin-left: 20px;
+    }
+    .three{
+        margin-top: 20px;
+        width: 70px;
+        height: 70px;
+        img{
+            width: 50px;
+            height: 40;
+            margin-top: 11px;
+            
+        }
+        margin-left: 20px;
+    }
+    .give p{
+        font-size: 15px;
+    }
+    .pr{
+        display: none;
+    }
+    .hov{
+        padding-left: 400px;
+        display: block;
+        
+    }
+    .tran{
+        padding-left: 1200px;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        
+    }
+}
+@media screen and (min-width:934px) and (max-width:1252px){
+    .all{
+        height: 630px; 
+        padding-top: 0;
+     }
+     header{
+        height: 60px;
+        
+     }
+     .people{
+         padding-left: 200px;
+     }
+     .end{
+         p{
+             display: none;
+         }
+         a{
+             font-size: 12px;
+             line-height: 17px;
+             width: 90px;
+         }
+         
+     }
+     .icon{
+         padding-top: 20px;
+     }
+     .vip{
+         font-size: 15px;
+         line-height: 20px;
+     }
+     .logo img{
+         width: 50px;
+         height: 50px;
+         
+        }
+        .logo{
+         margin-bottom: 40px;
+         padding-left: 120px;
+        }
+        .logotext{
+         display: none;
+        }
+        .testi{
+            display: block;
+            padding-left: 80px;
+        }
+        .nav{
+         width: 370px;
+         height: 23px;
+        }
+        .list{
+         font-size: 15px;
+         line-height: 20px;
+        }
+        .aut{
+         width: 270px;
+        }
+        .login{
+         width: 120px;
+         
+        }
+        .best{
+         display: none;
+        }
+        .bist{
+         display: none;
+        }
+        .dollar{
+         display: none;
+        }
+        .dolar{
+         display: none;
+        }
+        .reg{
+         width: 120px;
+        }
+     .container{
+         width: 100%;
+         display: flex;
+     }
+     .begin{
+         height: 300px;
+         justify-content: center;
+         padding-left:  30px;
+         gap: 0px;
+         p{
+             display: none;
+         }
+         .girl{
+             width: 300px;
+             height: 300px;
+         }
+         h1{
+             font-size: 40px;
+             width: 470px;
+             line-height: 80px; 
+         }
+         span{
+             font-size: 40px;
+             width: 470px;
+             line-height: 80px;
+         }
+         .playvideo{
+             padding-top: 80px;
+             img{
+                 width: 50px;
+                 height: 50px;
+             }
+             .reg{
+                 width:150px;
+                 height: 50px;
+                 text-align: center;
+             }
+             a{
+                 width:200px;
+                 font-size: 20px;
+             }
+             .play{
+                 width: 300px;
+             }
+         }
+     }
+     .service{
+         padding-top: 7%;
+         padding-left: 30px;
+     }
+     .give h2{
+         font-size: 60px;
+         width: 470px;
+         line-height: 80px;
+         
+     }
+     .teacher{
+         width: 450px;
+         display: flex;
+         gap: 170px;
+         h3{
+             font-size: 20px;
+             line-height: 30px;  
+             margin-top: 21px;
+             margin-right: 20px;
+         }
+         p{
+             display: none;
+         }
+     }
+     .learning{
+         width: 450px;
+         display: flex;
+         gap: 170px;
+         h3{
+             font-size: 20px;
+             line-height: 30px;  
+             margin-top: 21px;
+             margin-right: 20px;
+         }
+         p{
+             display: none;
+         }
+     }
+     .course{
+         width: 450px;
+         display: flex;
+         gap: 170px;
+         h3{
+             font-size: 20px;
+             line-height: 30px;  
+             margin-top: 21px;
+             margin-right: 20px;
+         }
+         p{
+             display: none;
+         }
+     }
+     .give{
+         
+         width: 210px;
+     }
+     .one{
+         margin-top: 20px;
+         width: 70px;
+         height: 70px;
+         img{
+             width: 50px;
+             height: 40;
+             margin-top: 11px;
+             
+         }
+         margin-left: 20px;
+     }
+     .two{
+         margin-top: 20px;
+         width: 70px;
+         height: 70px;
+         img{
+             width: 50px;
+             height: 40;
+             margin-top: 11px;
+             
+         }
+         margin-left: 20px;
+     }
+     .three{
+         margin-top: 20px;
+         width: 70px;
+         height: 70px;
+         img{
+             width: 50px;
+             height: 40;
+             margin-top: 11px;
+             
+         }
+         margin-left: 20px;
+     }
+     .give p{
+         font-size: 15px;
+     }
+     .pr{
+         display: none;
+     }
+     .hov{
+         padding-left: 200px;
+         display: block;
+         
+     }
+     .tran{
+         padding-left: 800px;
+         img{
+             width: 50px;
+             height: 50px;
+         }
+         
+     }
+}
+@media screen and (min-width:430px) and (max-width:550px){
+.nav{
+    display: none;
+}
+i{
+    visibility: visible;
+    
+}
+.begin{
+    height: 300px;
+    justify-content: center;
+    padding-left:  180px;
+    gap: 0px;
+    p{
+        display: none;
+    }
+    .girl{
+        display: flex;
+        position: absolute;
+        left: 200px;
+        top: 70px;
+    }
+    h1{
+        font-size: 20px;
+        width: 150px;
+        line-height: 30px; 
+    }
+    span{
+        font-size:20px;
+        width: 170px;
+        line-height: 18px;
+    }
+    .playvideo{
+        padding-top: 80px;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        .reg{
+            width:150px;
+            height: 50px;
+            text-align: center;
+        }
+        a{
+            width:200px;
+            font-size: 20px;
+        }
+        .play{
+            width: 300px;
+        }
+    }
+}
+.logo img{
+    width: 50px;
+    height:50px;
+    margin-top: 0;
+   }
+   header{
+    height: 60px;
+   }
+   .service{
+    padding-left: 0;
+    justify-content: center;
+   }
+   .hov{
+    padding-left: 20px;
+    display: block;
+    margin-top: 0;
+    
+}
+.teacher{
+    height: 70px;
+    width: 150px;
+    display: flex;
+    padding-left: 0;
+    h3{
+        font-size: 8px;
+        line-height: 11px;  
+        margin-top: 21px;
+        margin-right: 20px;
+    }
+    p{
+        display: none;
+    }
+}
+.learning{
+    height: 70px;
+    width: 150px;
+    display: flex;
+    padding-left: 0;
+    h3{
+        font-size: 8px;
+        line-height: 11px;  
+        margin-top: 21px;
+        margin-right: 20px;
+    }
+    p{
+        display: none;
+    }
+}
+.course{
+    height: 70px;
+    width: 150px;
+    display: flex;
+    padding-left: 0;
+    h3{
+        font-size: 8px;
+        line-height: 11px;  
+        margin-top: 21px;
+        margin-right: 20px;
+    }
+    p{
+        display: none;
+    }
+}
+   .logotext{
+    display: none;
+   }
+   .logo{
+    margin-bottom: 40px;
+    padding-left: 50px;
+   }
+   .dollar{
+    display: none;
+   }
+   .dolar{
+    display: none;
+   }
+   .bist{
+    display: none;
+   }
+   .best{
+    display: none;
+   }
+   .mom img{
+    width: 150px;
+    height: 150px;
+    padding-left: 0;
+   }
+   .mom{
+    padding-left: 10px;
+    padding-top: 60px;
+   }
+   
+   .people{
+    gap: 20px;
+   }
+   .pic{
+    width: 300px;
+   }
+   .container{
+    width: 100%;
+   }
+   .available{
+    width: 500px;
+   }
+   .js{
+    display: none;
+   }
+   .design{
+    display: none;
+   }
+   .testo{
+    padding-left: 5px;
+    gap: 0px;
+   }
+   .fris{
+    width: 200px;
+    
+   }
+   .fin{
+    width: 200px;
+   }
+   .end{
+    p{
+        display: none;
+    }
+   }
+   .icon{
+    padding-left:35px;
+   }
+}
+@media screen and (min-width:328px) and (max-width:429px){
+    .nav{
+        display: none;
+    }
+    i{
+        visibility: visible;
+        
+    }
+    .begin{
+        height: 300px;
+        justify-content: center;
+        padding-left:  280px;
+        gap: 0px;
+        p{
+            display: none;
+        }
+        .girl{
+            width: 150px;
+            height: 150px;
+            display: flex;
+            position: absolute;
+            left: 180px;
+            top: 70px;
+        }
+        h1{
+            font-size: 20px;
+            width: 150px;
+            line-height: 30px; 
+        }
+        span{
+            font-size:20px;
+            width: 170px;
+            line-height: 18px;
+        }
+        .playvideo{
+            padding-top: 80px;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+            .reg{
+                width:150px;
+                height: 50px;
+                text-align: center;
+            }
+            a{
+                width:200px;
+                font-size: 20px;
+            }
+            .play{
+                width: 300px;
+                visibility: hidden;
+            }
+        }
+    }
+    .logo img{
+        width: 50px;
+        height:50px;
+       display: flex;
+       position:absolute;
+       left: 30px;
+       top: 7px;
+       }
+       header{
+        height: 60px;
+        justify-content:space-around;
+       }
+       .aut{
+        display: none;
+       }
+       .logo{
+        width: 10px;
+       }
+       .service{
+        padding-left: 0;
+        justify-content: center;
+       }
+       .hov{
+        padding-left: 0px;
+        display: block;
+        margin-top: 0;
+        
+    }
+    .stat{
+        width: 200px;
+        flex-wrap: wrap;
+    }
+    .six{
+        padding-left: 0;
+    }
+    .teacher{
+        height: 70px;
+        width: 150px;
+        display: flex;
+        padding-left: 0;
+        h3{
+            font-size: 8px;
+            line-height: 11px;  
+            margin-top: 21px;
+            margin-right: 20px;
+        }
+        p{
+            display: none;
+        }
+    }
+    .learning{
+        height: 70px;
+        width: 150px;
+        display: flex;
+        padding-left: 0;
+        h3{
+            font-size: 8px;
+            line-height: 11px;  
+            margin-top: 21px;
+            margin-right: 20px;
+        }
+        p{
+            display: none;
+        }
+    }
+    .course{
+        height: 70px;
+        width: 150px;
+        display: flex;
+        padding-left: 0;
+        h3{
+            font-size: 8px;
+            line-height: 11px;  
+            margin-top: 21px;
+            margin-right: 20px;
+        }
+        p{
+            display: none;
+        }
+    }
+       .logotext{
+        display: none;
+       }
+       header.logo{
+        margin-bottom: 40px;
+        padding-left: 50px;
+       }
+       .dollar{
+        display: none;
+       }
+       .dolar{
+        display: none;
+       }
+       .bist{
+        display: none;
+       }
+       .best{
+        display: none;
+       }
+       .mom img{
+        width: 150px;
+        height: 150px;
+        padding-left: 0;
+       }
+       .mom{
+        padding-left: 10px;
+        padding-top: 60px;
+       }
+       
+       .people{
+        gap: 20px;
+       }
+       .pic{
+        width: 85px;
+       }
+       .container{
+        width: 100%;
+       }
+       .available{
+        width: 500px;
+        
+       }
+
+       .js{
+        display: none;
+       }
+       .av{
+        width: 400px;
+       }
+       .design{
+        display: none;
+       }
+       .testo{
+        padding-left: 5px;
+        gap: 0px;
+       }
+       .testo h2 {
+        margin-left: 100px;
+       }
+       .fris{
+        width: 150px;
+        
+       }
+       .fin{
+        width: 150px;
+       }
+       .end{
+        p{
+            display: none;
+        }
+       }
+       .icon{
+        padding-left:35px;
+       }
+       .store{
+        position: relative;
+        left: 0;
+       
+       }
+       
+}
